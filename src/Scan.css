@@ -1,0 +1,156 @@
+.pro{
+	padding-top: 1cm;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+.border-primary {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #325d88!important;
+}
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+table tr {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dfd7ca;
+    border-bottom: 1px solid #dfd7ca;
+    border-right: 1px solid #dfd7ca;
+    border-left: 1px solid #dfd7ca;
+}
+h2{
+  text-decoration: underline;
+}
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.profile-userpic{
+	text-align: center;
+}
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+th{
+	text-align: justify;
+}
+.name{text-align: left;}
+.icon{
+	margin: auto;
+	text-align: center
+}
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+table{
+	table-layout: fixed;
+	 word-wrap: break-word;
+	 overflow-y: hidden;
+}
+th{
+	font-size: 1rem;
+}
+@media screen and (max-width: 581px) {
+ 	.btn{
+ 		font-size: 0.1rem;
+ 		line-height: 0px;
+ 	} 
+ 	.bton{
+ 		display: none;
+ 	}
+ 	table{
+ 		border: 1px solid #DFD7CA;
+ 		border-radius: 100px;
+ 	}
+ 	.icon{width: 10%;vertical-align: middle;}
+ 	.profile-userbuttons[_ngcontent-c3] .btn[_ngcontent-c3]{
+ 		font-size: 8px;
+ 	}
+}
